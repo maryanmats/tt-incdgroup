@@ -1,0 +1,11 @@
+@import "../../scss/mixins.scss";
+@import "../../scss/vars.scss";
+
+.input {
+  padding: 16px;
+  border-radius: 4px;
+  background: $grayF5;
+  @include body_1;
+  min-width: 260px;
+  color: $gray33;
+}

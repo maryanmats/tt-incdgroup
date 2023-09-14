@@ -1,0 +1,74 @@
+@import "./scss/vars.scss";
+@import "./scss/mixins.scss";
+.home {
+  &__filter {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 161px;
+    &_second {
+      display: flex;
+      gap: 28px;
+    }
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 27px;
+  }
+  &__filters {
+    position: relative;
+    &_body {
+      position: absolute;
+      top: 55px;
+    }
+  }
+  &__empty {
+    @include heading_2;
+    text-align: center;
+    color: $white;
+  }
+  &__pagination {
+    margin-top: 22px;
+  }
+}
+.character {
+  max-width: 1220px;
+  margin: 80px auto 0 auto;
+  background: $gray44;
+  border-radius: 8px;
+  display: flex;
+  gap: 40px;
+  overflow: hidden;
+  &__body {
+    padding: 15px;
+  }
+  &__image {
+    max-width: 595px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  h3 {
+    @include heading_1;
+    color: $grayF5;
+  }
+  &__flex {
+    span {
+      @include heading_2;
+      color: $grayF5;
+    }
+  }
+  &__item {
+    margin-top: 13.5px;
+    h4 {
+      @include tab;
+      color: $gray9E;
+    }
+    p {
+      @include paragraph;
+      color: $grayF5;
+    }
+  }
+}

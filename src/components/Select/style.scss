@@ -1,0 +1,75 @@
+@import "../../scss/vars.scss";
+@import "../../scss/mixins.scss";
+
+.select-wrapper {
+  // padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  background: $grayF5;
+  color: $gray33;
+  min-width: 213px;
+  cursor: pointer;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  .select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .select--expander {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: grid-template-rows 1s;
+  }
+  .select--expanded {
+    grid-template-rows: 1fr;
+    & .select--options {
+      visibility: visible;
+    }
+  }
+  .select--options {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+    box-sizing: content-box;
+    background: $grayF5;
+    color: $gray33;
+    min-width: 213px;
+    border-top: 1px #272b33 solid;
+    min-height: 0;
+    transition: visibility 0.3s;
+    visibility: hidden;
+  }
+  .select--option {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    width: 100%;
+    background: $grayF5;
+    color: $gray33;
+    transition: background 0.3s;
+    &:hover {
+      border-radius: 0;
+      background: #9e9e9e91;
+    }
+  }
+}
+.select--open {
+  transition: 0.3s;
+  border-radius: 4px 4px 0 0;
+}

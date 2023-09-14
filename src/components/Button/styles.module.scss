@@ -1,0 +1,14 @@
+@import "../../scss/vars.scss";
+@import "../../scss/mixins.scss";
+@import "../../scss/style.scss";
+.button {
+  @include body_1;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: $grayF5;
+  color: $gray33;
+  min-width: 154px;
+}

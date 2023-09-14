@@ -1,0 +1,40 @@
+@import "./vars.scss";
+
+@mixin heading_1 {
+  font-family: $Roboto;
+  font-style: normal;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 29.7px;
+}
+
+@mixin heading_2 {
+  font-family: $Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  text-transform: capitalize;
+}
+@mixin tab {
+  font-family: $Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+@mixin paragraph {
+  font-family: $Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.25px;
+}
+@mixin body_1 {
+  font-family: $Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}

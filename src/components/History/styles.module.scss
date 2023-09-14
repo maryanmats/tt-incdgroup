@@ -1,0 +1,21 @@
+@import "../../scss/vars.scss";
+@import "../../scss/mixins.scss";
+@import "../../scss/style.scss";
+.wrapper {
+  min-width: 384px;
+  ul {
+    padding: 0 16px;
+  }
+  li {
+    border-bottom: 1px solid $gray33;
+    margin-bottom: 10px;
+    div {
+      @include heading_2;
+    }
+  }
+}
+.title {
+  @include heading_1;
+  color: $gray33;
+  padding: 16px;
+}

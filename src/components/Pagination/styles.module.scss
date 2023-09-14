@@ -1,0 +1,25 @@
+@import "../../scss/vars.scss";
+@import "../../scss/mixins.scss";
+@import "../../scss/style.scss";
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  @include body_1;
+  color: $grayF5;
+  background: $gray44;
+  margin-right: 9.5px;
+  border-radius: 4px;
+  padding: 5px 12.5px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.12), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  &_active {
+    color: $gray44;
+    background: $grayF5;
+  }
+  &_arrow {
+    color: $gray44;
+    background: $grayF5;
+  }
+}
