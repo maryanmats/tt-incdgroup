@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.7613c15b.css",
+    "main.js": "/react-gh-pages/static/js/main.65481e14.js",
+    "static/media/Roboto-Medium.ttf": "/react-gh-pages/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Regular.ttf": "/react-gh-pages/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Bold.ttf": "/react-gh-pages/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/footer_logo_incode.png": "/react-gh-pages/static/media/footer_logo_incode.ba0150bde2b088eb78ad.png",
+    "static/media/header_logo.svg": "/react-gh-pages/static/media/header_logo.4b89da8d6add4084c933b32e912d6c16.svg",
+    "static/media/verticalIcon.svg": "/react-gh-pages/static/media/verticalIcon.192a3940b9b7fb59e0bc598c3542db75.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/checkbox.svg": "/react-gh-pages/static/media/checkbox.028d7be846ef959a255f.svg",
+    "static/media/downloadIcon.svg": "/react-gh-pages/static/media/downloadIcon.5791ca735e182e99da1951a6897c75da.svg",
+    "static/media/historyIcon.svg": "/react-gh-pages/static/media/historyIcon.3829771f07a377f2a6274604b9b9b06a.svg",
+    "main.7613c15b.css.map": "/react-gh-pages/static/css/main.7613c15b.css.map",
+    "main.65481e14.js.map": "/react-gh-pages/static/js/main.65481e14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7613c15b.css",
+    "static/js/main.65481e14.js"
+  ]
+}
